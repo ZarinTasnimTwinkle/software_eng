@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .card-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+  }
+  .line{
+    margin: 20px auto 30px auto;
+    width: 100px;
+    height: 4px;
+    background-color: #2a65d3;
+  }
+  .all-btn {
+    margin-top: 30px;
+    background-color: #2a65d3;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding: 0.45rem 2.5rem;
+    border: 2px solid #2a65d3;
+    transition: all 0.3s ease-in-out;
+  }
+  .all-btn:hover {
+    color: #2a65d3;
+    border: 2px solid #2a65d3;
+    background-color: #dddeff;
+  }
+
+/*!Top Header Area*/
+.top-header-area{
+  background-color: #2a65d31c;
+}
+.top-header-area .top-header-content a{
+  display: inline-block;
+  font-size: 12px;
+  color: #707070;
+  text-decoration: none;
+}
+.top-header-area .top-header-content a:last-child{
+  margin-left: 30px;
+}
+.top-header-area .top-header-content a:hover{
+  color: #2a65d3;
+  transition-duration: 500ms;
+}
+.top-header-area .top-header-social-info{
+  text-align: right;
+}
+.top-header-area .top-header-social-info a{
+  color: #707070;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 8px 2px;
+}
+.top-header-area .top-header-social-info a:hover{
+  color: #2a65d3;
+  transition-duration: 500ms;
+}
+/* !Navbar CSS */
+.mynavbar {
+    display: flex;
+    padding: 0;
+    background-color: #ffff;
+  }
+  .navbar-toggler {
+    padding: 0.8rem 0.8rem;
+    margin-left: 1rem;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    /* box-shadow: 0 0 0 0.1rem !important; */
+    box-shadow: none;
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 2em;
+    height: 1.5em;
+  }
+  .navbar-toggler-icon i {
+    font-size: 30px;
+    color: #474747;
+  }
+  .mynavbar .navbar-brand {
+    
+    margin-left: 8%;
+    font-size: 35px;
+    text-transform: uppercase;
+    /*font-family: Georgia, "Times New Roman", Times, serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    color: #2a65d3;
+    text-decoration: none;
+  }
+  #main_menu ul {
+    margin: 2% 2% 2% auto;
+    padding: 0;    
+  }
+  #main_menu ul li {
+    margin-right: 22px;
+    display: inline-block;
+  }
+  #main_menu ul li a {
+    padding: 4px 4px;
+    font-size: 16px;
+    /*font-family: Georgia, "Times New Roman", Times, serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s;
+    display: inline-block;
+    color: #474747;
+    text-decoration: none;
+  }
+  #main_menu ul li a:hover {
+    color: #2a65d3;
+    background-color: inherit;
+  }
+  #main_menu ul li.active a {
+    color: #2a65d3;
+  }
+  #main_menu a.btn {
+    margin: 0 8% 0 0;
+    background-color: #dddeff;
+    font-family: 'Ubuntu', sans-serif;
+    color: #2a65d3;
+    border: 2px solid #2a65d3;
+    transition: all 0.3s ease-in-out;
+  }
+  #main_menu a.btn:hover {
+    background-color: #2a65d3;
+    color: white;
+  }
+/* !Main Image CSS */
+.main_image {
+    /* background-color: #d7d7d7; */
+    background-image: url(images/care1.jpg);
+    /* background-image: url(images/main-image.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main_image_porda {
+    /*background-color: rgba(212, 212, 212, 0.616);*/
+    background-color: #2352aa46;
+  }
+  .main_image_content {
+    padding: 12% 0 18% 0;
+    margin: 0 301px 0 70px;
+    text-align: center;
+  }
+  .display-6 {
+    margin-bottom: 30px;
+    font-family: "Kaushan Script", cursive;
+    /* font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: normal; */
+  }
+  
+
+/*!Service CSS*/
+.My_service {
+  padding: 100px 0;
+  background-color: #ffff;
+}
+.My_service .card {
+  background-color: #2a65d31c;
+  transition: all 0.3s ease-in-out;
+}
+.My_service .card:hover {
+  color: white;
+  background-color: #2a65d3;
+  box-shadow: 6px 10px 30px rgba(138, 138, 138, 0.842);
+}
+.icon svg {
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px;
+  color: #2a65d3;
+  transition: all 0.3s ease-in-out;
+}
+.My_service .card:hover svg {
+  color: white;
+}
+.service-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+}
+.My_service .nav-tabs {
+  border-bottom: 1px solid #2a65d3;
+}
+.My_service .nav-tabs .nav-link {
+  margin-left: 1rem;
+  padding: 8px 3rem;
+  font-size: 18px;
+  /* color: #474747; */
+  transition: all 0.2s ease-in-out;
+}
+.My_service .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  /* color: #cc2062; */
+  background-color: #2a65d30a;
+  border-color: #2a65d3 #2a65d3 #fff;
+}
+.My_service .nav-tabs .nav-link:hover {
+  color: black;
+  background-color: #2a65d30a;
+  border-color: #2a65d3 #2a65d3 #fff;
+}
+.department-text{
+  margin: 3rem 0 1.5rem 2rem;
+}
+
+/*!Appointment form CSS*/
+.booking{
+  padding: 100px 0;
+  background-color: #2a65d31c;
+}
+.form-control{
+  padding: 15px;
+  background-color: #73738b54;
+  border-radius: 2px;
+  border: 1px solid #2a65d3;
+  font-size: 12px;
+  font-style: italic;
+}
+/*.hire_me .card-body {
+  padding: 0 2rem 0 0;
+  margin-top: 12%;
+  margin-left: 2rem;
+}
+.hire_me .card-image {
+  width: 30rem;
+  padding: 0 0 0 1rem;
+  margin-top: 14%;
+}*/
+
+/*!Doctors*/
+.doctor-card{
+  padding: 70px 0px 100px 0px;
+}
+.doctor-card .card{
+  background-color: #2a65d31c;
+  transition: all 0.3s ease-in-out;
+}
+.doctor-card .card:hover {
+  color: white;
+  background-color: #2a65d3;
+  box-shadow: 6px 10px 30px rgba(138, 138, 138, 0.842);
+}
+.doctor-card .doctor-title{
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 0.5rem;
+}
+
+/*!Blogs*/
+.review{
+  padding: 50px 0px 80px 0px;
+  /* border: 2px solid #2a65d3; */
+  background-color: #2a65d31c;
+}
+.review i{
+  font-size: 3rem;
+}
+/* .carousel-inner{
+  height: 30rem;
+} */
+.carousel-caption{
+  color: rgb(21, 41, 92);
+  padding-top: 0px;
+  padding-bottom: 9rem;
+}
+/*!Footer CSS*/
+.navbar{
+  padding: 0 0;
+}
+.footer {
+  background-color: #2a65d31c;
+  padding: 100px 0;
+}
+.footer_brand {
+  color: #2a65d3;
+  padding: 35px 0;
+  margin-left: 5%;
+  font-size: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+}
+.footer_brand:hover {
+  color: #474747;
+}
+.footer_icon {
+  margin: 0 auto;
+}
+.footer_icon .navbar-nav {
+  flex-direction: row;
+}
+.footer_icon ul li {
+  margin: 0 5px;
+}
+.footer_icon ul li .fa {
+  font-size: 20px;
+  line-height: 30px;
+  transition: all 0.15s;
+}
+.footer_icon ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #474747;
+  background-color: transparent;
+  text-align: center;
+  transition: all 0.2s;
+}
+.footer_icon ul li a:hover {
+  transform: translate(0, -4px);
+  box-shadow: 0 5px 4px #4747474f;
+}
+.navbar-light .footer_icon .navbar-nav .nav-link:hover {
+  color: #fff;
+  background-color: #2a65d3;
+  border: 2px solid #2a65d3;
+}
+
+/*!login signup*/
+.loginnavbar{
+  background-color: #2a65d31c;
+}
+.login{
+  padding: 100px 0px;
+}
+.signbtn{
+  background-color: #2a65d3;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  padding: 0.3rem 1.5rem;
+  margin-left: 1rem;
+  border: 2px solid #2a65d3;
+  transition: all 0.3s ease-in-out;
+}
+.signbtn:hover{
+  color: #2a65d3;
+  background-color: #dddeff;
+  border: 2px solid #2a65d3;
+}
+.signbtn-group{
+  margin-top: 3rem ;
+}
+
+/*!Pricing Card*/
+.pricing-section{
+  padding: 70px 0px 100px 0px;
+}
+.pricing-card{
+  border: 2px solid #2a65d3;
+  background-color: #2a65d31c;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-card:hover{
+  /* color: white; */
+  /* background-color: #2a65d3; */
+  border: 2px solid #872ad3;
+  box-shadow: 6px 10px 30px rgba(138, 138, 138, 0.842);
+}
+.pricing-card:hover b{
+  color: #872ad3;
+}
+.pricing-card b{
+  font-size: 1.6rem;
+  color: #2a65d3;
+  margin-right: 0.3rem;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-card h3{
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  /* font-size: 20px; */
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.pricing-card i{
+  margin-right: 0.4rem;
+}
+.pricing-card span{
+  color: gray;
+  font-size: 0.9rem;
+}
+.pricing-card p{
+  font-size: 1.2rem;
+  color: gray;
+}
+
+/*! assistant navbar*/
+.another-navbar {
+  display: flex;
+  padding: 0;
+  background-color: #132c5abd ;
+}
+.another-navbar .navbar-brand {   
+  margin-left: 8%;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  color: #e5e6ff;
+  text-decoration: none;
+}
+.dropdown{
+  margin: 1% 10% 1% auto;
+}
+.dropdown i{
+  margin-right: 1rem;
+}
+.dropdown-menu{
+  background-color: #e5e6ff;
+  margin-left: 6rem;
+}
+.dropdown .btn {
+  padding: 0;
+  padding: 0.4rem;
+  font-size: 21px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #e5e6ff;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.dropdown .btn:hover {
+  color: white;
+}
+.dropdown-item{
+  transition: all 0.3s ease-in-out;
+}
+.dropdown-item:hover{
+  background-color: #132c5abd;
+  color: #e5e6ff;
+}
+
+/*! assistant body*/
+.assistant_page .nav-item{
+  margin: 8%;
+}
+.assistant_page{
+  /* padding-bottom: 200px; */
+  height: 790px;
+}
+.border-end{
+  height: 790px;
+  /* height: 100%; */
+}
+
+/*! pending table*/
+.pending_table{
+    margin: 2rem 0;
+    width: 100%;
+    text-align: center;
+  }
+  .pending_table th{
+    padding: 1rem;
+    font-size: 1rem;
+    margin-right: 5rem;
+  }
+
+  .another-btn {
+    margin-top: 5px;
+    background-color: #132c5abd;
+    font-family: 'Ubuntu', sans-serif;
+    color: #e5e6ff;
+    padding: 0.3rem 1.5rem;
+    border: 2px solid #132c5abd;
+    transition: all 0.3s ease-in-out;
+  }
+  .another-btn:hover {
+    color: #132c5abd;
+    border: 2px solid #132c5abd;
+    background-color: #e5e6ff;
+  }
+
+  #dview .nav .nav-link{
+    margin: 2rem 3rem 2rem 1rem;
+    font-size: 22px;
+    border-radius: 10%;
+    padding: 1rem 3rem;
+    background-color: #132c5abd;
+    color: #e5e6ff;
+  }
+  #dview .nav .nav-link:hover{
+    background-color: #e5e6ff;
+    color: #132c5abd;
+  }
